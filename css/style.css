@@ -1,0 +1,941 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;p
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* THIS IS HOW TO COMMENT ON CSS */
+
+/* MY CODE */
+
+
+
+
+@font-face {
+    font-family: 
+    src: url('../fonts/');
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+    
+
+
+header {
+    width: 100%;
+    height: 170px;
+    background-color: #000099;
+    
+}
+
+header img {
+
+    width: 43%;
+    margin-top: 6px;
+    height: 160px;
+    padding-left: ;
+    float: left;
+}
+
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+  margin-top: 70px
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 20px;
+    color: #fff;
+      
+}
+
+header nav ul li img {
+    float: right;
+    width: 8px;
+    padding-left: 6px;
+    position: relative;
+    top: 5px;
+}
+
+header nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 8px;
+    background-color: #0000ff;
+    border-radius: 0px 0px 2px 4px;
+
+}
+
+header nav ul li:hover ul {
+    display: block;
+    opacity: .9;
+    height: 90px;
+    width: 160px;
+    
+}
+
+header nav ul li ul li {
+    clear: both;
+    width: 140px;
+    border-radius: 4px;
+
+}
+
+header nav ul li ul li a {
+    display: block;
+    padding: 14px 12px;
+    font-family: tk;
+    color: #fff;
+    text-decoration: none;
+}
+
+header  nav ul li ul li:hover {
+    background-color: black;
+}
+
+
+.contact {
+    color: black;
+    background-color: #14e715;
+    border-radius: 20px;
+}
+
+body {
+    background-image: ;
+    background-color: #cccccc;
+}
+
+.Banner1 {
+    padding-top: 20px;
+}
+
+.video-box {
+    width: 100%
+    height: 540px;
+    background-color: #222;
+}
+
+.index-entro {
+    width: 100%;
+    padding: 70px 0px;
+    
+}
+
+.index-entro h2 {
+    font-weight: 700px;
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: black;
+  }
+
+.index-entro p {
+    font-weight: 600px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px;
+    margin: 20px;
+    color: black;
+}
+
+/*------- SPARES PAGE-------*/
+ 
+.Banner1 img{
+    border-radius: 23px;
+}
+
+ .Spare-Box {
+    width: 100%;
+    padding: 0px 0px;
+    overflow: hidden;
+
+}
+
+.Spare-Box2{
+    width: 100%;
+    padding: 80px 0px;
+    overflow: hidden;
+    padding-left: 140px;
+
+}
+
+.Spare-Box article {
+    width: 25%;
+    float: left;
+    margin: 0px 4.1%;
+    color: black;
+    }
+
+.Spare-Box2 article {
+    width: 25%;
+    float: left;
+    margin: 0px 4.1%;
+    }
+
+
+.Spares-Engine {
+   width: 100%;
+   height: 140PX;
+   background-image: url(../img/CatEngine.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+
+} 
+
+.Engine-Parts {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatEngineParts.jpeg);
+    border-radius: 20px;
+   background-size: 240px 140px;
+   
+} 
+
+.Spares-Trans {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatTrans.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+
+} 
+
+.Spares-Trans-Parts {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatTransParts.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+} 
+
+.Spares-HydPump {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatHydPump.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+  
+} 
+
+.Spares-FDrive {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatFinalDrive.jpeg);
+   border-radius: 20px;
+   background-size: 220px 140px;
+  
+} 
+
+.Spares-Tracks {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatTrack.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+
+}
+
+.Spares-Bucket {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatBucket.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-Teeth {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatTeeth.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-GBlade {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/graderblade.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BBlade {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BBlade.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BRipper {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BRipper.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-ExAttach {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ExAttachment.png);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BobCatAttach {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BobCatAttach.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+} 
+
+.Spares-hydc {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/hydc.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+.Spares-turbo {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/turbo.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-boom {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/booms.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+
+.Spares-ServiceKit {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ServiceKit.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+
+.Spares-Oils {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/Oils.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+.Spares-HydPipes {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatHydPipes.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+} 
+
+.Spares-TruckParts {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/TruckParts.png);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+
+.Spare-Box h3 {
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8x;
+    padding-top: 8px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box p {
+    font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box2 h3{
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8x;
+    padding-top: 8px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box2 p {
+    font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+/*------- EQUIPMENT PAGE -------*/
+
+.Equipment-Box {
+    width: 100%;
+    padding: 12px 0px;
+    overflow: hidden;
+
+}
+
+.Equipment-Box article {
+    width: 25%;
+    float: left;
+    margin: 0px 4.1%;
+    color: black;
+    padding-bottom: 50px;
+    }
+
+.Equipment-Box h3 {
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8x;
+    padding-top: 8px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Equipment-Box p {
+    font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: black;
+    overflow: hidden;
+
+}
+
+
+.Equipment-ArticulatedTruck {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ArticulatedTruck.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+} 
+
+.Equipment-AsphaltPavers {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/AsphaltPavers.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+  
+} 
+
+.Equipment-TLB {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BackhoeLoaders.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+  
+} 
+
+.Equipment-ColdPlaners {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ColdPlaners.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+
+}
+
+.Equipment-Compactors1 {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/Compactors1.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-Teeth {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatTeeth.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-GBlade {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/graderblade.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BBlade {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BBlade.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BRipper {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BRipper.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-ExAttach {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ExAttachment.png);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-BobCatAttach {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/BobCatAttach.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+} 
+
+.Spares-hydc {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/hydc.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+.Spares-turbo {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/turbo.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+.Spares-boom {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/booms.jpg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+
+.Spares-ServiceKit {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/ServiceKit.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}
+
+
+.Spares-Oils {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/Oils.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+.Spares-HydPipes {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/CatHydPipes.jpeg);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+} 
+
+.Spares-TruckParts {
+   width: 100%;
+   height: 140px;
+   background-image: url(../img/TruckParts.png);
+   border-radius: 20px;
+   background-size: 240px 140px;
+   
+}  
+
+
+.Spare-Box h3 {
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8x;
+    padding-top: 8px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box p {
+    font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box2 h3{
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 8x;
+    padding-top: 8px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+.Spare-Box2 p {
+    font-weight: 400px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: black;
+    overflow: hidden;
+
+}
+
+
+
+
+
+/*-------- CONTACT PAGE -------*/
+
+.contact-info {
+    font-size: 30px
+   
+
+}
+
+.contact-info h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+.contact-info p {
+   color: black;
+
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+
+}
+
+.iconimg {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.contact-info button {
+    width: 80px;
+    height: 30px;
+    background-color: #ff3300;
+    border: none;
+    font-size: 15;
+    color: #fff;
+    padding: 1px 1px;
+    margin: 20px;
+
+    }
+
+
+
+
+/*-------- CLIENTS PAGE -------*/
+
+
+.Coming-Soon {
+    width: 100%;
+    padding: 80px 0px;
+    overflow: hidden;
+}
+
+.Coming-Soon article {
+    width: 53%;
+    float: left;
+    margin: 0px 4.1%;
+}
+
+
+.Coming-Soonbody {
+   width: 100%;
+   height: 300px;
+   background-image: url(../img/UNDER.jpg);
+   transition: all;
+   transition-duration: 900ms;
+   transition-timing-function: linear;
+   transition-delay: 1s;
+
+} 
+
+
+/*--------- GALLERY PAGE ------*/
+
+
+.gallery-box {
+    overflow: hidden;
+    padding: 80px 0px;
+}
+
+.img-single {
+    width: 310px;
+    height: 150px;
+    float: left;
+    position: relative;
+    margin: 5px 5px;
+
+} 
+
+.img-single img {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+transition: all 200ms ease-in-out;
+-webkit-transition: all 200ms ease-in-out;
+-o-transition: all 200ms ease-in-out;
+}
+
+
+
+
+
+
+/*-----------FOOTER------------*/
+
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+  }
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+footer nav ul li a {
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color:  #000099;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+
+.facebook-icon {
+    float: right;
+    
+}
+
+.citro-designs {
+    float: right;
+    padding-right: 7px;
+    border-radius: 20px;
+
+}
