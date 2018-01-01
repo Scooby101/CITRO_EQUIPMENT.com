@@ -938,4 +938,8 @@ footer {
     padding-right: 7px;
     border-radius: 20px;
 
+}    
+.Space{
+  width:100%;
+  height:1.5em;
 }
